@@ -18,3 +18,7 @@ def main
     end
   end
 end
+
+def dummy
+  Spreadsheet.inspect
+end
