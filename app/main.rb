@@ -1,6 +1,13 @@
 require 'spreadsheet'
 
+require 'lib/sample.jar'
+java_import org.tazyamah.sample.SampleClass
+
 def main
+  # jar読み込みテスト
+  SampleClass.hello()
+  puts SampleClass.string()
+  # ここまで
   result = ""
   Dir.glob('./sample_data/**/*.xls').each do |xlsfile|
     xls = Spreadsheet.open(xlsfile)
