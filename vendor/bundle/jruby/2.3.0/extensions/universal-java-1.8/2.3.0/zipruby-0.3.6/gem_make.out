@@ -1,0 +1,9 @@
+current directory: /Users/tazyamah/work/rl/jrubytest/warbler_hans_on/vendor/bundle/jruby/2.3.0/gems/zipruby-0.3.6/ext
+/Users/tazyamah/.rvm/rubies/jruby-9.1.1.0/bin/jruby -r ./siteconf20160628-77729-am0esl.rb extconf.rb
+NotImplementedError: C extensions are not supported
+    <top> at /Users/tazyamah/.rvm/rubies/jruby-9.1.1.0/lib/ruby/stdlib/mkmf.rb:1
+  require at org/jruby/RubyKernel.java:944
+   (root) at /Users/tazyamah/.rvm/rubies/jruby-9.1.1.0/lib/ruby/stdlib/rubygems/core_ext/kernel_require.rb:1
+    <top> at extconf.rb:1
+
+extconf failed, exit code 1
